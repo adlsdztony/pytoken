@@ -13,7 +13,7 @@ class TestSimple(unittest.TestCase):
         msg = "test"
         token = Token(msg)
         self.assertEqual(token.msg, msg)
-        print(token.encode())
+        print(token.to_str())
         
 
 
